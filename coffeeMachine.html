@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="reset" href="reset.css" />
+    <link rel="stylesheet" href="cofeeStyles.css" />
+    <script src="/coffee_machine.js"></script>
+    <title>Кофемашина</title>
+  </head>
+
+  <body>
+    <div class="keyboard">
+      <!-- Дисплей машины -->
+      <div class="display_box">
+        <p id="display_text">
+          Добро пожаловать в меню вендинговой кофе-машины. Пожалуйста, сделайте
+          заказ.
+        </p>
+        <progress value="0" max="100" id="progress_bar"></progress>
+      </div>
+      <!-- Дисплей машины -->
+      <div>
+        <button class="coffee_buttons" id="abort"><p>Сброс</p></button>
+      </div>
+      <div>
+        <button class="coffee_buttons"><p>Эспрессо</p></button>
+      </div>
+      <div>
+        <button class="coffee_buttons"><p>Латте</p></button>
+      </div>
+      <div>
+        <button class="coffee_buttons"><p>Капучино</p></button>
+      </div>
+      <div>
+        <button class="coffee_buttons"><p>Банановый латте</p></button>
+      </div>
+      <div>
+        <button class="coffee_buttons"><p>Ванильный Капучино</p></button>
+      </div>
+      <div>
+        <button class="coffee_buttons"><p>Флэт уайт</p></button>
+      </div>
+      <div>
+        <button class="coffee_buttons milk"><p>Молоко</p></button>
+      </div>
+      <div>
+        <button class="coffee_buttons syrup"><p>Вишневый сироп</p></button>
+      </div>
+      <div>
+        <button class="coffee_buttons give_cash" id="cash">
+          <p>Оплата</p>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
